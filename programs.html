@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs | Daya Society</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar" style="padding: 15px 0; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+        <div class="container">
+            <a href="ngo.html" class="logo">
+                <img src="images/logo.jfif" alt="Daya Society Logo" style="height: 40px; border-radius: 5px;">
+                Daya<span>Society</span>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="ngo.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="programs.html" class="nav-link active">Programs</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <div class="nav-btns d-mobile">
+                    <a href="donate.html" class="btn btn-primary">Donate Karein</a>
+                </div>
+            </div>
+            
+            <div class="nav-btns">
+                <a href="donate.html" class="btn btn-primary">Donate Karein</a>
+            </div>
+            
+            <i class="fa-solid fa-bars mobile-menu-btn" id="menuBtn"></i>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header class="page-header" style="background-image: linear-gradient(rgba(10, 37, 64, 0.8), rgba(10, 37, 64, 0.8)), url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=2069&auto=format&fit=crop');">
+        <div class="container">
+            <h1>Hamare Programs (Our Programs)</h1>
+            <div class="breadcrumb">
+                <a href="ngo.html">Home</a> 
+                <span>&gt;</span> 
+                <span>Programs</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CAUSES / PROGRAMS -->
+    <section class="section causes-bg">
+        <div class="container">
+            <div class="section-header">
+                <h3 style="color: var(--primary); font-size: 18px; text-transform: uppercase; letter-spacing: 2px;">Chal Rahe Projects (Ongoing)</h3>
+                <h2 class="section-title">Duniya Badalne Mein Hamara Saath Dein</h2>
+                <p class="section-subtitle">Hum garibi aur bhedbhav mitane ke kai kadam utha rahe hain. Dekhiye aapka donation kahan istemaal hota hai.</p>
+            </div>
+            
+            <div class="causes-grid">
+                <!-- Cause 1 -->
+                <div class="cause-card">
+                    <div class="cause-img-wrapper">
+                        <span class="cause-category">Shiksha</span>
+                        <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?q=80&w=800&auto=format&fit=crop" alt="Education Program" class="cause-img">
+                    </div>
+                    <div class="cause-content">
+                        <h3>Village School Nirman</h3>
+                        <p>Ek gaon mein primary school banane mein madad karein. Yahan ke kareeb 300 bacche roz 10km paidal chalkar padhne jaate hain. Aapki madad inka samay aur padhai dono bachayegi.</p>
+                        
+                        <div class="progress-bar-wrap">
+                            <div class="progress-labels">
+                                <span>Collected: ₹12,00,000</span>
+                                <span>Target: ₹20,00,000</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="cause-footer">
+                            <span style="font-weight: 600; color: var(--secondary);"><i class="fa-solid fa-users" style="color: var(--primary); margin-right: 5px;"></i> 142 Madadgaar</span>
+                            <a href="donate.html" class="btn btn-outline" style="padding: 8px 16px;">Donate Karein</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cause 2 -->
+                <div class="cause-card">
+                    <div class="cause-img-wrapper">
+                        <span class="cause-category">Swasthya</span>
+                        <img src="https://images.unsplash.com/photo-1574852026815-56f50085a81e?q=80&w=800&auto=format&fit=crop" alt="Medical Program" class="cause-img">
+                    </div>
+                    <div class="cause-content">
+                        <h3>Mobile Medical Clinic (Van)</h3>
+                        <p>Gareeb aur pichde ilako mein mobile medical van chalu karne ke liye fund dijiye. Isse asani se logon tak free ilaj, dawaiyan aur checkups pahunchega.</p>
+                        
+                        <div class="progress-bar-wrap">
+                            <div class="progress-labels">
+                                <span>Collected: ₹8,00,000</span>
+                                <span>Target: ₹15,00,000</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 53%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="cause-footer">
+                            <span style="font-weight: 600; color: var(--secondary);"><i class="fa-solid fa-users" style="color: var(--primary); margin-right: 5px;"></i> 89 Madadgaar</span>
+                            <a href="donate.html" class="btn btn-outline" style="padding: 8px 16px;">Donate Karein</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cause 3 -->
+                <div class="cause-card">
+                    <div class="cause-img-wrapper">
+                        <span class="cause-category">Poshan</span>
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop" alt="Food Program" class="cause-img">
+                    </div>
+                    <div class="cause-content">
+                        <h3>Zero Hunger Pehal</h3>
+                        <p>Slums ke bacchon ko poshtik madhyahan bhojan (mid-day meals) pradan karein. Bohot se masoomo ke liye yeh din ka akela bhar-pet khana hota hai.</p>
+                        
+                        <div class="progress-bar-wrap">
+                            <div class="progress-labels">
+                                <span>Collected: ₹4,00,000</span>
+                                <span>Target: ₹10,00,000</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 40%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="cause-footer">
+                            <span style="font-weight: 600; color: var(--secondary);"><i class="fa-solid fa-users" style="color: var(--primary); margin-right: 5px;"></i> 215 Madadgaar</span>
+                            <a href="donate.html" class="btn btn-outline" style="padding: 8px 16px;">Donate Karein</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cause 4 -->
+                <div class="cause-card">
+                    <div class="cause-img-wrapper">
+                        <span class="cause-category">Paani (Water)</span>
+                        <img src="https://images.unsplash.com/photo-1536965427181-7f0ad08eb286?q=80&w=800&auto=format&fit=crop" alt="Water Program" class="cause-img">
+                    </div>
+                    <div class="cause-content">
+                        <h3>Saaf Peene Ka Paani</h3>
+                        <p>Sookhe aur pani ki kami wale gaon mein hand-pumps aur water wells lagwane mein madad karein, taki waha beemariyan na phaile.</p>
+                        
+                        <div class="progress-bar-wrap">
+                            <div class="progress-labels">
+                                <span>Collected: ₹15,00,000</span>
+                                <span>Target: ₹18,00,000</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 83%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="cause-footer">
+                            <span style="font-weight: 600; color: var(--secondary);"><i class="fa-solid fa-users" style="color: var(--primary); margin-right: 5px;"></i> 320 Madadgaar</span>
+                            <a href="donate.html" class="btn btn-outline" style="padding: 8px 16px;">Donate Karein</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Cause 5 -->
+                <div class="cause-card">
+                    <div class="cause-img-wrapper">
+                        <span class="cause-category">Anaathashram (Orphanage)</span>
+                        <img src="https://images.unsplash.com/photo-1540479782520-213c4c1a773d?q=80&w=800&auto=format&fit=crop" alt="Orphanage Program" class="cause-img">
+                    </div>
+                    <div class="cause-content">
+                        <h3>Daya Orphanage Vistar</h3>
+                        <p>Hamare naye anaathashram mein 50 aur aanaath bacchon ko panah dene ke liye ashiyana aur bed banwane main funds ka yogdaan karein.</p>
+                        
+                        <div class="progress-bar-wrap">
+                            <div class="progress-labels">
+                                <span>Collected: ₹7,00,000</span>
+                                <span>Target: ₹25,00,000</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 28%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="cause-footer">
+                            <span style="font-weight: 600; color: var(--secondary);"><i class="fa-solid fa-users" style="color: var(--primary); margin-right: 5px;"></i> 95 Madadgaar</span>
+                            <a href="donate.html" class="btn btn-outline" style="padding: 8px 16px;">Donate Karein</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cause 6 -->
+                <div class="cause-card">
+                    <div class="cause-img-wrapper">
+                        <span class="cause-category">Mahila Sashaktikaran</span>
+                        <img src="https://images.unsplash.com/photo-1601662706560-61ba4f4d2f00?q=80&w=800&auto=format&fit=crop" alt="Women Empowerment Program" class="cause-img">
+                    </div>
+                    <div class="cause-content">
+                        <h3>Women Empowerment Center</h3>
+                        <p>Gareeb mahilaon ko silai, crafts, aur computer skills sikhane ke liye training center banwana taki woh aatma-nirbhar ho sakein.</p>
+                        
+                        <div class="progress-bar-wrap">
+                            <div class="progress-labels">
+                                <span>Collected: ₹2,50,000</span>
+                                <span>Target: ₹5,00,000</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" style="width: 50%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="cause-footer">
+                            <span style="font-weight: 600; color: var(--secondary);"><i class="fa-solid fa-users" style="color: var(--primary); margin-right: 5px;"></i> 68 Madadgaar</span>
+                            <a href="donate.html" class="btn btn-outline" style="padding: 8px 16px;">Donate Karein</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (Simplified template) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="ngo.html" class="logo">
+                        <img src="images/logo.jfif" alt="Daya Society Logo" style="height: 40px; border-radius: 5px;">
+                        Daya<span>Society</span>
+                    </a>
+                    <p>एक स्वतंत्र शोध संस्थान जो तकनीकी विकास के सामाजिक और नैतिक पहलुओं का गहराई से अध्ययन करता है।</p>
+                </div>
+                
+                <div class="footer-widget">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="ngo.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Sampark Karein</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Daya Society NGO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            if(navLinks.classList.contains('active')) {
+                menuBtn.classList.remove('fa-bars');
+                menuBtn.classList.add('fa-xmark');
+            } else {
+                menuBtn.classList.remove('fa-xmark');
+                menuBtn.classList.add('fa-bars');
+            }
+        });
+    </script>
+</body>
+</html>

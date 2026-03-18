@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Daya Society</title>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar" id="navbar" style="padding: 15px 0; box-shadow: 0 5px 20px rgba(0,0,0,0.1);">
+        <div class="container">
+            <a href="ngo.html" class="logo">
+                <img src="images/logo.jfif" alt="Daya Society Logo" style="height: 40px; border-radius: 5px;">
+                Daya<span>Society</span>
+            </a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="ngo.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="programs.html" class="nav-link">Programs</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <div class="nav-btns d-mobile">
+                    <a href="donate.html" class="btn btn-primary">Donate करें</a>
+                </div>
+            </div>
+            
+            <div class="nav-btns">
+                <a href="donate.html" class="btn btn-primary">Donate करें</a>
+            </div>
+            
+            <i class="fa-solid fa-bars mobile-menu-btn" id="menuBtn"></i>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header class="page-header" style="background-image: linear-gradient(rgba(10, 37, 64, 0.8), rgba(10, 37, 64, 0.8)), url('https://images.unsplash.com/photo-1596524430615-b46475ddff6e?q=80&w=2070&auto=format&fit=crop');">
+        <div class="container">
+            <h1>संपर्क करें (Contact Us)</h1>
+            <div class="breadcrumb">
+                <a href="ngo.html">Home</a> 
+                <span>&gt;</span> 
+                <span>Contact</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 style="color: var(--primary); font-size: 18px; text-transform: uppercase; letter-spacing: 2px;">जुड़े रहें</h3>
+                <h2 class="section-title">आपके सवाल और सुझाव</h2>
+                <p class="section-subtitle">कोई सवाल है या हमारे साथ जुड़कर काम करना चाहते हैं? हमें Message भेजें, हमारी टीम जल्द ही आपसे संपर्क करेगी।</p>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>हमारा ऑफिस (Our Office)</h3>
+                    <p style="margin-bottom: 30px; font-size: 16px; color: var(--text-light);">आप हमसे सीधे मिलने आ सकते हैं या Phone और Email पर बात कर सकते हैं।</p>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>पता (Address)</h4>
+                            <p>268A, Madhopur, Basudeopur,<br>Munger, Bihar 811202, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone Number</h4>
+                            <p>06344-226355<br>+91 94314 18843</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email Address</h4>
+                            <p>mdayasociety@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <h4 style="margin: 30px 0 15px;">हमें Follow करें</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <h3>संदेश भेजें (Send a Message)</h3>
+                    <form action="#" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">आपका नाम (Name) <span style="color: #e53e3e;">*</span></label>
+                            <input type="text" id="name" class="form-control" placeholder="अपना पूरा नाम लिखें" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address <span style="color: #e53e3e;">*</span></label>
+                            <input type="email" id="email" class="form-control" placeholder="naam@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">विषय (Subject) <span style="color: #e53e3e;">*</span></label>
+                            <input type="text" id="subject" class="form-control" placeholder="आप किस बारे में बात करना चाहते हैं?" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message <span style="color: #e53e3e;">*</span></label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="अपना संदेश यहाँ लिखें..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Message भेजें</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Map Placeholder -->
+            <div style="margin-top: 80px; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); height: 400px; background: #ddd; display: flex; align-items: center; justify-content: center;">
+                <h3 style="color: var(--text-muted);"><i class="fa-solid fa-map-location-dot" style="margin-right: 10px;"></i> Google Maps Integration Placeholder</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER (Simplified template) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="ngo.html" class="logo">
+                        <img src="images/logo.jfif" alt="Daya Society Logo" style="height: 40px; border-radius: 5px;">
+                        Daya<span>Society</span>
+                    </a>
+                    <p>एक NGO जो समाज के वंचित वर्गों को शिक्षा, स्वास्थ्य और आजीविका के माध्यम से सशक्त बनाने के लिए समर्पित है।</p>
+                </div>
+                
+                <div class="footer-widget">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="ngo.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+                        <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Sampark Karein</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Daya Society NGO. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const navLinks = document.getElementById('navLinks');
+        
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            if(navLinks.classList.contains('active')) {
+                menuBtn.classList.remove('fa-bars');
+                menuBtn.classList.add('fa-xmark');
+            } else {
+                menuBtn.classList.remove('fa-xmark');
+                menuBtn.classList.add('fa-bars');
+            }
+        });
+    </script>
+</body>
+</html>
