@@ -327,7 +327,7 @@ img {
 .gallery-img {
     position: absolute;
     border-radius: 20px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     object-fit: cover;
     transition: transform 0.4s ease;
 }
@@ -397,9 +397,17 @@ img {
 }
 
 @keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0px); }
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
 }
 
 @media (max-width: 991px) {
@@ -408,19 +416,19 @@ img {
         text-align: center;
         gap: 60px;
     }
-    
+
     .hero-text-side {
         margin: 0 auto;
     }
-    
+
     .hero-btns {
         justify-content: center;
     }
-    
+
     .hero-gallery-side {
         height: 450px;
     }
-    
+
     .hero h1 {
         font-size: 40px;
     }
@@ -430,7 +438,7 @@ img {
     .hero-gallery-side {
         height: 350px;
     }
-    
+
     .hero h1 {
         font-size: 32px;
     }
@@ -980,7 +988,7 @@ img {
 
 @media (max-width: 480px) {
     .hero {
-        padding-top: 100px;
+        padding-top: 190px;
         min-height: 100vh;
     }
 
@@ -1513,7 +1521,7 @@ textarea.form-control {
         grid-template-columns: 1fr;
         gap: 50px;
     }
-    
+
     .about-img-wrapper {
         padding-right: 20px;
         padding-bottom: 20px;
@@ -1521,21 +1529,21 @@ textarea.form-control {
         max-width: 500px;
         margin: 0 auto 30px auto;
     }
-    
+
     .experience-badge {
         top: -15px;
         left: -15px;
         padding: 15px 20px;
     }
-    
+
     .experience-badge h2 {
         font-size: 28px;
     }
-    
+
     .about-content h2 {
         font-size: 34px;
     }
-    
+
     .about-img-2 {
         width: 60%;
         border-width: 6px;
@@ -1546,13 +1554,14 @@ textarea.form-control {
     .about-content h2 {
         font-size: 28px;
     }
-    
+
     .about-content p {
         font-size: 16px;
     }
-    
+
     .experience-badge {
-        display: none; /* Hide floating badge on extra small screens if it overflows */
+        display: none;
+        /* Hide floating badge on extra small screens if it overflows */
     }
 }
 
@@ -1687,14 +1696,14 @@ textarea.form-control {
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 15px;
-    text-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    text-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .breadcrumb {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background: rgba(0,0,0,0.4);
+    background: rgba(0, 0, 0, 0.4);
     padding: 8px 20px;
     border-radius: 50px;
     font-weight: 500;
@@ -1712,7 +1721,7 @@ textarea.form-control {
 }
 
 .breadcrumb span {
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* DONATE PAGE STYLES */
@@ -1770,11 +1779,11 @@ textarea.form-control {
         grid-template-columns: 1fr;
         gap: 15px;
     }
-    
+
     .page-header {
         padding: 120px 0 60px;
     }
-    
+
     .custom-donate {
         padding: 30px 20px;
     }
@@ -1784,11 +1793,11 @@ textarea.form-control {
     .page-header h1 {
         font-size: 28px;
     }
-    
+
     .personal-details-grid {
         grid-template-columns: 1fr !important;
     }
-    
+
     .custom-donate-btns {
         flex-wrap: wrap;
     }
